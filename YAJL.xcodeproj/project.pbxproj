@@ -7,72 +7,118 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0052CD67126EABC10049CF17 /* yajl.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD55126EABC10049CF17 /* yajl.c */; };
-		0052CD68126EABC10049CF17 /* yajl_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD56126EABC10049CF17 /* yajl_alloc.c */; };
-		0052CD69126EABC10049CF17 /* yajl_alloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052CD57126EABC10049CF17 /* yajl_alloc.h */; };
-		0052CD6A126EABC10049CF17 /* yajl_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD58126EABC10049CF17 /* yajl_buf.c */; };
-		0052CD6B126EABC10049CF17 /* yajl_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052CD59126EABC10049CF17 /* yajl_buf.h */; };
-		0052CD6C126EABC10049CF17 /* yajl_bytestack.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052CD5A126EABC10049CF17 /* yajl_bytestack.h */; };
-		0052CD6D126EABC10049CF17 /* yajl_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD5B126EABC10049CF17 /* yajl_encode.c */; };
-		0052CD6E126EABC10049CF17 /* yajl_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052CD5C126EABC10049CF17 /* yajl_encode.h */; };
-		0052CD6F126EABC10049CF17 /* yajl_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD5D126EABC10049CF17 /* yajl_gen.c */; };
-		0052CD70126EABC10049CF17 /* yajl_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD5E126EABC10049CF17 /* yajl_lex.c */; };
-		0052CD71126EABC10049CF17 /* yajl_lex.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052CD5F126EABC10049CF17 /* yajl_lex.h */; };
-		0052CD72126EABC10049CF17 /* yajl_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD60126EABC10049CF17 /* yajl_parser.c */; };
-		0052CD73126EABC10049CF17 /* yajl_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052CD61126EABC10049CF17 /* yajl_parser.h */; };
-		0052CD74126EABC10049CF17 /* yajl_version.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD62126EABC10049CF17 /* yajl_version.c */; };
-		0065975B11BEEF4000E89ABD /* YAJLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C404FE0FE77661003CE908 /* YAJLDocument.h */; };
-		0065975C11BEEF4000E89ABD /* YAJLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C405000FE77661003CE908 /* YAJLParser.h */; };
-		0065975D11BEEF4000E89ABD /* NSObject+YAJL.h in Headers */ = {isa = PBXBuildFile; fileRef = 005BF2D110185B3000C35A81 /* NSObject+YAJL.h */; };
-		0065975F11BEEF4000E89ABD /* YAJLGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 005BF2D610185B3000C35A81 /* YAJLGen.h */; };
-		0065976B11BEEF4000E89ABD /* YAJLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C404FF0FE77661003CE908 /* YAJLDocument.m */; };
-		0065976C11BEEF4000E89ABD /* YAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C405010FE77661003CE908 /* YAJLParser.m */; };
-		0065976D11BEEF4000E89ABD /* NSObject+YAJL.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2D210185B3000C35A81 /* NSObject+YAJL.m */; };
-		0065976E11BEEF4000E89ABD /* YAJLGen.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2D710185B3000C35A81 /* YAJLGen.m */; };
-		00C3CEE8126EABFF00DF710D /* yajl_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C3CEE4126EABFF00DF710D /* yajl_common.h */; };
-		00C3CEE9126EABFF00DF710D /* yajl_gen.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C3CEE5126EABFF00DF710D /* yajl_gen.h */; };
-		00C3CEEA126EABFF00DF710D /* yajl_parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C3CEE6126EABFF00DF710D /* yajl_parse.h */; };
-		633F87711BF11F4600A465AA /* libYAJL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0065977C11BEEF4000E89ABD /* libYAJL.a */; };
-		633F87771BF11FD400A465AA /* YAJLDocumentDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00073FB31161433500D8283B /* YAJLDocumentDelegateTest.m */; };
-		633F87781BF11FD400A465AA /* TwitterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E922A111FA10400D2345B /* TwitterTest.m */; };
-		633F87791BF11FD400A465AA /* NSObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2FA10185B6C00C35A81 /* NSObjectTest.m */; };
-		633F877A1BF11FD400A465AA /* NSStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2FB10185B6C00C35A81 /* NSStringTest.m */; };
-		633F877B1BF11FD400A465AA /* NSDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0020021F107D3EBB009ED6DF /* NSDataTest.m */; };
-		633F877C1BF11FD400A465AA /* YAJLGenTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2FC10185B6C00C35A81 /* YAJLGenTest.m */; };
-		633F877E1BF11FD400A465AA /* YAJLTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABD2F40FFA0C3100965787 /* YAJLTestCase.m */; };
-		633F877F1BF11FD400A465AA /* YAJLDocumentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C405740FE777B4003CE908 /* YAJLDocumentTest.m */; };
-		633F87801BF11FD400A465AA /* YAJLParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C405750FE777B4003CE908 /* YAJLParserTest.m */; };
-		63D6C9101BF124B8007C028C /* document_streaming.json in Resources */ = {isa = PBXBuildFile; fileRef = 00073FB51161433D00D8283B /* document_streaming.json */; };
-		63D6C9111BF124B8007C028C /* overflow2.json in Resources */ = {isa = PBXBuildFile; fileRef = 000E9224111FA0F700D2345B /* overflow2.json */; };
-		63D6C9121BF124B8007C028C /* twitter.json in Resources */ = {isa = PBXBuildFile; fileRef = 000E9225111FA0F700D2345B /* twitter.json */; };
-		63D6C9131BF124B8007C028C /* overflow_longlong.json in Resources */ = {isa = PBXBuildFile; fileRef = 000E9226111FA0F700D2345B /* overflow_longlong.json */; };
-		63D6C9141BF124B8007C028C /* gen_expected_ignore_unknown1.json in Resources */ = {isa = PBXBuildFile; fileRef = 00AC53511098F49D002B5508 /* gen_expected_ignore_unknown1.json */; };
-		63D6C9151BF124B8007C028C /* gen_expected_plist1.json in Resources */ = {isa = PBXBuildFile; fileRef = 00AC53521098F49D002B5508 /* gen_expected_plist1.json */; };
-		63D6C9161BF124B8007C028C /* error2.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A59CE9109014550032BD92 /* error2.json */; };
-		63D6C9171BF124B8007C028C /* stream_array1.json in Resources */ = {isa = PBXBuildFile; fileRef = 005BF35B10185F7E00C35A81 /* stream_array1.json */; };
-		63D6C9181BF124B8007C028C /* stream_array2.json in Resources */ = {isa = PBXBuildFile; fileRef = 005BF35C10185F7E00C35A81 /* stream_array2.json */; };
-		63D6C9191BF124B8007C028C /* gen_expected1.json in Resources */ = {isa = PBXBuildFile; fileRef = 005BF30010185B7600C35A81 /* gen_expected1.json */; };
-		63D6C91A1BF124B8007C028C /* gen_expected2.json in Resources */ = {isa = PBXBuildFile; fileRef = 005BF30110185B7600C35A81 /* gen_expected2.json */; };
-		63D6C91B1BF124B8007C028C /* object_expected_array.json in Resources */ = {isa = PBXBuildFile; fileRef = 005BF30210185B7600C35A81 /* object_expected_array.json */; };
-		63D6C91C1BF124B8007C028C /* overflow.json in Resources */ = {isa = PBXBuildFile; fileRef = 00ABD2EC0FFA0C1800965787 /* overflow.json */; };
-		63D6C91D1BF124B8007C028C /* stream1.json in Resources */ = {isa = PBXBuildFile; fileRef = 00ABD2ED0FFA0C1800965787 /* stream1.json */; };
-		63D6C91E1BF124B8007C028C /* stream2.json in Resources */ = {isa = PBXBuildFile; fileRef = 00ABD2EE0FFA0C1800965787 /* stream2.json */; };
-		63D6C91F1BF124B8007C028C /* comments.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C4056F0FE777B4003CE908 /* comments.json */; };
-		63D6C9201BF124B8007C028C /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C405700FE777B4003CE908 /* error.json */; };
-		63D6C9211BF124B8007C028C /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C405710FE777B4003CE908 /* example.json */; };
-		63D6C9221BF124B8007C028C /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C405720FE777B4003CE908 /* sample.json */; };
-		63D6C9231BF124B8007C028C /* twitter_snowflake.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C3CEFB126EAC5700DF710D /* twitter_snowflake.json */; };
-		63D6C93E1BF13587007C028C /* yajl_tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D6C93D1BF13587007C028C /* yajl_tree.h */; };
-		63D6C9401BF13590007C028C /* yajl_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C93F1BF13590007C028C /* yajl_tree.c */; };
+		967A021B1D5CB2CD00CFB753 /* NSObject+YAJL.h in Headers */ = {isa = PBXBuildFile; fileRef = 005BF2D110185B3000C35A81 /* NSObject+YAJL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		967A021C1D5CB2D000CFB753 /* YAJLGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 005BF2D610185B3000C35A81 /* YAJLGen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		967A021D1D5CB2D200CFB753 /* YAJLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C404FE0FE77661003CE908 /* YAJLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		967A021E1D5CB2D400CFB753 /* YAJLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C405000FE77661003CE908 /* YAJLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D282171D5CB3C1004E727D /* YAJLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C405000FE77661003CE908 /* YAJLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D282181D5CB3C6004E727D /* YAJLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C404FE0FE77661003CE908 /* YAJLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D282191D5CB3CA004E727D /* YAJLGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 005BF2D610185B3000C35A81 /* YAJLGen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D2821A1D5CB3CE004E727D /* NSObject+YAJL.h in Headers */ = {isa = PBXBuildFile; fileRef = 005BF2D110185B3000C35A81 /* NSObject+YAJL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F7CC091D5CA75A00D54DB5 /* NSObject+YAJL.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2D210185B3000C35A81 /* NSObject+YAJL.m */; };
+		96F7CC0A1D5CA75A00D54DB5 /* YAJLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C404FF0FE77661003CE908 /* YAJLDocument.m */; };
+		96F7CC0B1D5CA75A00D54DB5 /* YAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C405010FE77661003CE908 /* YAJLParser.m */; };
+		96F7CC0C1D5CA76B00D54DB5 /* yajl.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD55126EABC10049CF17 /* yajl.c */; };
+		96F7CC0D1D5CA76B00D54DB5 /* yajl_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD56126EABC10049CF17 /* yajl_alloc.c */; };
+		96F7CC0E1D5CA76B00D54DB5 /* yajl_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD58126EABC10049CF17 /* yajl_buf.c */; };
+		96F7CC0F1D5CA76B00D54DB5 /* yajl_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD5B126EABC10049CF17 /* yajl_encode.c */; };
+		96F7CC101D5CA76B00D54DB5 /* yajl_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD5D126EABC10049CF17 /* yajl_gen.c */; };
+		96F7CC111D5CA76B00D54DB5 /* yajl_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD5E126EABC10049CF17 /* yajl_lex.c */; };
+		96F7CC121D5CA76B00D54DB5 /* yajl_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD60126EABC10049CF17 /* yajl_parser.c */; };
+		96F7CC131D5CA76B00D54DB5 /* yajl_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C93F1BF13590007C028C /* yajl_tree.c */; };
+		96F7CC141D5CA76B00D54DB5 /* yajl_version.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD62126EABC10049CF17 /* yajl_version.c */; };
+		96F7CC151D5CA78300D54DB5 /* YAJLGen.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2D710185B3000C35A81 /* YAJLGen.m */; };
+		96F7CC211D5CA91300D54DB5 /* YAJL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B89BF71D5CA6AA00E12508 /* YAJL.framework */; };
+		96F7CC271D5CA92600D54DB5 /* YAJLDocumentDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00073FB31161433500D8283B /* YAJLDocumentDelegateTest.m */; };
+		96F7CC281D5CA92B00D54DB5 /* TwitterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E922A111FA10400D2345B /* TwitterTest.m */; };
+		96F7CC291D5CA92B00D54DB5 /* NSObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2FA10185B6C00C35A81 /* NSObjectTest.m */; };
+		96F7CC2A1D5CA92B00D54DB5 /* NSStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2FB10185B6C00C35A81 /* NSStringTest.m */; };
+		96F7CC2B1D5CA92B00D54DB5 /* NSDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0020021F107D3EBB009ED6DF /* NSDataTest.m */; };
+		96F7CC2C1D5CA92B00D54DB5 /* YAJLGenTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2FC10185B6C00C35A81 /* YAJLGenTest.m */; };
+		96F7CC2D1D5CA92F00D54DB5 /* YAJLTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABD2F40FFA0C3100965787 /* YAJLTestCase.m */; };
+		96F7CC2E1D5CA92F00D54DB5 /* YAJLDocumentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C405740FE777B4003CE908 /* YAJLDocumentTest.m */; };
+		96F7CC2F1D5CA92F00D54DB5 /* YAJLParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C405750FE777B4003CE908 /* YAJLParserTest.m */; };
+		96F7CC301D5CA97B00D54DB5 /* document_streaming.json in Resources */ = {isa = PBXBuildFile; fileRef = 00073FB51161433D00D8283B /* document_streaming.json */; };
+		96F7CC311D5CA97B00D54DB5 /* overflow2.json in Resources */ = {isa = PBXBuildFile; fileRef = 000E9224111FA0F700D2345B /* overflow2.json */; };
+		96F7CC321D5CA97B00D54DB5 /* twitter.json in Resources */ = {isa = PBXBuildFile; fileRef = 000E9225111FA0F700D2345B /* twitter.json */; };
+		96F7CC331D5CA97B00D54DB5 /* overflow_longlong.json in Resources */ = {isa = PBXBuildFile; fileRef = 000E9226111FA0F700D2345B /* overflow_longlong.json */; };
+		96F7CC341D5CA97B00D54DB5 /* gen_expected_ignore_unknown1.json in Resources */ = {isa = PBXBuildFile; fileRef = 00AC53511098F49D002B5508 /* gen_expected_ignore_unknown1.json */; };
+		96F7CC351D5CA97B00D54DB5 /* gen_expected_plist1.json in Resources */ = {isa = PBXBuildFile; fileRef = 00AC53521098F49D002B5508 /* gen_expected_plist1.json */; };
+		96F7CC361D5CA97B00D54DB5 /* error2.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A59CE9109014550032BD92 /* error2.json */; };
+		96F7CC371D5CA97B00D54DB5 /* stream_array1.json in Resources */ = {isa = PBXBuildFile; fileRef = 005BF35B10185F7E00C35A81 /* stream_array1.json */; };
+		96F7CC381D5CA97B00D54DB5 /* stream_array2.json in Resources */ = {isa = PBXBuildFile; fileRef = 005BF35C10185F7E00C35A81 /* stream_array2.json */; };
+		96F7CC391D5CA97B00D54DB5 /* gen_expected1.json in Resources */ = {isa = PBXBuildFile; fileRef = 005BF30010185B7600C35A81 /* gen_expected1.json */; };
+		96F7CC3A1D5CA97B00D54DB5 /* gen_expected2.json in Resources */ = {isa = PBXBuildFile; fileRef = 005BF30110185B7600C35A81 /* gen_expected2.json */; };
+		96F7CC3B1D5CA97B00D54DB5 /* object_expected_array.json in Resources */ = {isa = PBXBuildFile; fileRef = 005BF30210185B7600C35A81 /* object_expected_array.json */; };
+		96F7CC3C1D5CA97B00D54DB5 /* overflow.json in Resources */ = {isa = PBXBuildFile; fileRef = 00ABD2EC0FFA0C1800965787 /* overflow.json */; };
+		96F7CC3D1D5CA97B00D54DB5 /* stream1.json in Resources */ = {isa = PBXBuildFile; fileRef = 00ABD2ED0FFA0C1800965787 /* stream1.json */; };
+		96F7CC3E1D5CA97B00D54DB5 /* stream2.json in Resources */ = {isa = PBXBuildFile; fileRef = 00ABD2EE0FFA0C1800965787 /* stream2.json */; };
+		96F7CC3F1D5CA97B00D54DB5 /* comments.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C4056F0FE777B4003CE908 /* comments.json */; };
+		96F7CC401D5CA97B00D54DB5 /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C405700FE777B4003CE908 /* error.json */; };
+		96F7CC411D5CA97B00D54DB5 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C405710FE777B4003CE908 /* example.json */; };
+		96F7CC421D5CA97B00D54DB5 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C405720FE777B4003CE908 /* sample.json */; };
+		96F7CC431D5CA97B00D54DB5 /* twitter_snowflake.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C3CEFB126EAC5700DF710D /* twitter_snowflake.json */; };
+		96F7CC571D5CAC4F00D54DB5 /* YAJL.h in Headers */ = {isa = PBXBuildFile; fileRef = 96F7CC561D5CAC4F00D54DB5 /* YAJL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F7CC581D5CAC4F00D54DB5 /* YAJL.h in Headers */ = {isa = PBXBuildFile; fileRef = 96F7CC561D5CAC4F00D54DB5 /* YAJL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F7CC631D5CACA200D54DB5 /* YAJL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F7CC4D1D5CAB8900D54DB5 /* YAJL.framework */; };
+		96F7CC7D1D5CACCE00D54DB5 /* document_streaming.json in Resources */ = {isa = PBXBuildFile; fileRef = 00073FB51161433D00D8283B /* document_streaming.json */; };
+		96F7CC7E1D5CACCE00D54DB5 /* overflow2.json in Resources */ = {isa = PBXBuildFile; fileRef = 000E9224111FA0F700D2345B /* overflow2.json */; };
+		96F7CC7F1D5CACCE00D54DB5 /* twitter.json in Resources */ = {isa = PBXBuildFile; fileRef = 000E9225111FA0F700D2345B /* twitter.json */; };
+		96F7CC801D5CACCE00D54DB5 /* overflow_longlong.json in Resources */ = {isa = PBXBuildFile; fileRef = 000E9226111FA0F700D2345B /* overflow_longlong.json */; };
+		96F7CC811D5CACCE00D54DB5 /* gen_expected_ignore_unknown1.json in Resources */ = {isa = PBXBuildFile; fileRef = 00AC53511098F49D002B5508 /* gen_expected_ignore_unknown1.json */; };
+		96F7CC821D5CACCE00D54DB5 /* gen_expected_plist1.json in Resources */ = {isa = PBXBuildFile; fileRef = 00AC53521098F49D002B5508 /* gen_expected_plist1.json */; };
+		96F7CC831D5CACCE00D54DB5 /* error2.json in Resources */ = {isa = PBXBuildFile; fileRef = 00A59CE9109014550032BD92 /* error2.json */; };
+		96F7CC841D5CACCE00D54DB5 /* stream_array1.json in Resources */ = {isa = PBXBuildFile; fileRef = 005BF35B10185F7E00C35A81 /* stream_array1.json */; };
+		96F7CC851D5CACCE00D54DB5 /* stream_array2.json in Resources */ = {isa = PBXBuildFile; fileRef = 005BF35C10185F7E00C35A81 /* stream_array2.json */; };
+		96F7CC861D5CACCE00D54DB5 /* gen_expected1.json in Resources */ = {isa = PBXBuildFile; fileRef = 005BF30010185B7600C35A81 /* gen_expected1.json */; };
+		96F7CC871D5CACCE00D54DB5 /* gen_expected2.json in Resources */ = {isa = PBXBuildFile; fileRef = 005BF30110185B7600C35A81 /* gen_expected2.json */; };
+		96F7CC881D5CACCE00D54DB5 /* object_expected_array.json in Resources */ = {isa = PBXBuildFile; fileRef = 005BF30210185B7600C35A81 /* object_expected_array.json */; };
+		96F7CC891D5CACCE00D54DB5 /* overflow.json in Resources */ = {isa = PBXBuildFile; fileRef = 00ABD2EC0FFA0C1800965787 /* overflow.json */; };
+		96F7CC8A1D5CACCE00D54DB5 /* stream1.json in Resources */ = {isa = PBXBuildFile; fileRef = 00ABD2ED0FFA0C1800965787 /* stream1.json */; };
+		96F7CC8B1D5CACCE00D54DB5 /* stream2.json in Resources */ = {isa = PBXBuildFile; fileRef = 00ABD2EE0FFA0C1800965787 /* stream2.json */; };
+		96F7CC8C1D5CACCE00D54DB5 /* comments.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C4056F0FE777B4003CE908 /* comments.json */; };
+		96F7CC8D1D5CACCE00D54DB5 /* error.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C405700FE777B4003CE908 /* error.json */; };
+		96F7CC8E1D5CACCE00D54DB5 /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C405710FE777B4003CE908 /* example.json */; };
+		96F7CC8F1D5CACCE00D54DB5 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C405720FE777B4003CE908 /* sample.json */; };
+		96F7CC901D5CACCE00D54DB5 /* twitter_snowflake.json in Resources */ = {isa = PBXBuildFile; fileRef = 00C3CEFB126EAC5700DF710D /* twitter_snowflake.json */; };
+		96F7CC911D5CACDC00D54DB5 /* YAJLDocumentDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00073FB31161433500D8283B /* YAJLDocumentDelegateTest.m */; };
+		96F7CC921D5CACDC00D54DB5 /* TwitterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E922A111FA10400D2345B /* TwitterTest.m */; };
+		96F7CC931D5CACDC00D54DB5 /* NSObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2FA10185B6C00C35A81 /* NSObjectTest.m */; };
+		96F7CC941D5CACDC00D54DB5 /* NSStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2FB10185B6C00C35A81 /* NSStringTest.m */; };
+		96F7CC951D5CACDC00D54DB5 /* NSDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0020021F107D3EBB009ED6DF /* NSDataTest.m */; };
+		96F7CC961D5CACDC00D54DB5 /* YAJLGenTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2FC10185B6C00C35A81 /* YAJLGenTest.m */; };
+		96F7CC971D5CACDC00D54DB5 /* YAJLTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABD2F40FFA0C3100965787 /* YAJLTestCase.m */; };
+		96F7CC981D5CACDC00D54DB5 /* YAJLDocumentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C405740FE777B4003CE908 /* YAJLDocumentTest.m */; };
+		96F7CC991D5CACDC00D54DB5 /* YAJLParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C405750FE777B4003CE908 /* YAJLParserTest.m */; };
+		96F7CC9A1D5CAD0500D54DB5 /* NSObject+YAJL.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2D210185B3000C35A81 /* NSObject+YAJL.m */; };
+		96F7CC9B1D5CAD0500D54DB5 /* YAJLGen.m in Sources */ = {isa = PBXBuildFile; fileRef = 005BF2D710185B3000C35A81 /* YAJLGen.m */; };
+		96F7CC9C1D5CAD0500D54DB5 /* YAJLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C404FF0FE77661003CE908 /* YAJLDocument.m */; };
+		96F7CC9D1D5CAD0500D54DB5 /* YAJLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C405010FE77661003CE908 /* YAJLParser.m */; };
+		96F7CC9E1D5CAD1500D54DB5 /* yajl.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD55126EABC10049CF17 /* yajl.c */; };
+		96F7CC9F1D5CAD1500D54DB5 /* yajl_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD56126EABC10049CF17 /* yajl_alloc.c */; };
+		96F7CCA01D5CAD1500D54DB5 /* yajl_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD58126EABC10049CF17 /* yajl_buf.c */; };
+		96F7CCA11D5CAD1500D54DB5 /* yajl_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD5B126EABC10049CF17 /* yajl_encode.c */; };
+		96F7CCA21D5CAD1500D54DB5 /* yajl_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD5D126EABC10049CF17 /* yajl_gen.c */; };
+		96F7CCA31D5CAD1500D54DB5 /* yajl_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD5E126EABC10049CF17 /* yajl_lex.c */; };
+		96F7CCA41D5CAD1500D54DB5 /* yajl_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD60126EABC10049CF17 /* yajl_parser.c */; };
+		96F7CCA51D5CAD1500D54DB5 /* yajl_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 63D6C93F1BF13590007C028C /* yajl_tree.c */; };
+		96F7CCA61D5CAD1500D54DB5 /* yajl_version.c in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD62126EABC10049CF17 /* yajl_version.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		633F87721BF11F4600A465AA /* PBXContainerItemProxy */ = {
+		96F7CC221D5CA91300D54DB5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0065975811BEEF4000E89ABD;
-			remoteInfo = "YAJL Library";
+			remoteGlobalIDString = 96B89BF61D5CA6AA00E12508;
+			remoteInfo = "YAJL macOS";
+		};
+		96F7CC641D5CACA200D54DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F7CC4C1D5CAB8900D54DB5;
+			remoteInfo = "YAJL iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -84,7 +130,6 @@
 		000E9226111FA0F700D2345B /* overflow_longlong.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = overflow_longlong.json; sourceTree = "<group>"; };
 		000E922A111FA10400D2345B /* TwitterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterTest.m; sourceTree = "<group>"; };
 		0020021F107D3EBB009ED6DF /* NSDataTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataTest.m; sourceTree = "<group>"; };
-		00200243107D4033009ED6DF /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = SOURCE_ROOT; };
 		0052CD55126EABC10049CF17 /* yajl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl.c; sourceTree = "<group>"; };
 		0052CD56126EABC10049CF17 /* yajl_alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_alloc.c; sourceTree = "<group>"; };
 		0052CD57126EABC10049CF17 /* yajl_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_alloc.h; sourceTree = "<group>"; };
@@ -99,9 +144,6 @@
 		0052CD60126EABC10049CF17 /* yajl_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_parser.c; sourceTree = "<group>"; };
 		0052CD61126EABC10049CF17 /* yajl_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_parser.h; sourceTree = "<group>"; };
 		0052CD62126EABC10049CF17 /* yajl_version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_version.c; sourceTree = "<group>"; };
-		005886AA1226333300292C90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		005886B11226334500292C90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		005886C71226337500292C90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		005BF2D110185B3000C35A81 /* NSObject+YAJL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YAJL.h"; sourceTree = "<group>"; };
 		005BF2D210185B3000C35A81 /* NSObject+YAJL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YAJL.m"; sourceTree = "<group>"; };
 		005BF2D610185B3000C35A81 /* YAJLGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAJLGen.h; sourceTree = "<group>"; };
@@ -114,7 +156,6 @@
 		005BF30210185B7600C35A81 /* object_expected_array.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = object_expected_array.json; sourceTree = "<group>"; };
 		005BF35B10185F7E00C35A81 /* stream_array1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stream_array1.json; sourceTree = "<group>"; };
 		005BF35C10185F7E00C35A81 /* stream_array2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stream_array2.json; sourceTree = "<group>"; };
-		0065977C11BEEF4000E89ABD /* libYAJL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYAJL.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A59CE9109014550032BD92 /* error2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = error2.json; sourceTree = "<group>"; };
 		00ABD2EC0FFA0C1800965787 /* overflow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = overflow.json; sourceTree = "<group>"; };
 		00ABD2ED0FFA0C1800965787 /* stream1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stream1.json; sourceTree = "<group>"; };
@@ -131,7 +172,6 @@
 		00C404FF0FE77661003CE908 /* YAJLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAJLDocument.m; sourceTree = "<group>"; };
 		00C405000FE77661003CE908 /* YAJLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAJLParser.h; sourceTree = "<group>"; };
 		00C405010FE77661003CE908 /* YAJLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAJLParser.m; sourceTree = "<group>"; };
-		00C4054F0FE77760003CE908 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = SOURCE_ROOT; };
 		00C4056F0FE777B4003CE908 /* comments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = comments.json; sourceTree = "<group>"; };
 		00C405700FE777B4003CE908 /* error.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = error.json; sourceTree = "<group>"; };
 		00C405710FE777B4003CE908 /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example.json; sourceTree = "<group>"; };
@@ -139,26 +179,46 @@
 		00C405740FE777B4003CE908 /* YAJLDocumentTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAJLDocumentTest.m; sourceTree = "<group>"; };
 		00C405750FE777B4003CE908 /* YAJLParserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAJLParserTest.m; sourceTree = "<group>"; };
 		00C406470FE77C51003CE908 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		633F876C1BF11F4600A465AA /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D6C93D1BF13587007C028C /* yajl_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_tree.h; sourceTree = "<group>"; };
 		63D6C93F1BF13590007C028C /* yajl_tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_tree.c; sourceTree = "<group>"; };
 		63D6C9411BF135ED007C028C /* yajl_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_version.h; sourceTree = "<group>"; };
-		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96B89BF71D5CA6AA00E12508 /* YAJL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YAJL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F7CC1C1D5CA91300D54DB5 /* YAJLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YAJLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F7CC441D5CAAA300D54DB5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F7CC4D1D5CAB8900D54DB5 /* YAJL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YAJL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F7CC551D5CAC4500D54DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Classes/Info.plist; sourceTree = "<group>"; };
+		96F7CC561D5CAC4F00D54DB5 /* YAJL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YAJL.h; path = Classes/YAJL.h; sourceTree = "<group>"; };
+		96F7CC5E1D5CACA200D54DB5 /* YAJLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YAJLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0065977711BEEF4000E89ABD /* Frameworks */ = {
+		96B89BF31D5CA6AA00E12508 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		633F87691BF11F4600A465AA /* Frameworks */ = {
+		96F7CC191D5CA91300D54DB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				633F87711BF11F4600A465AA /* libYAJL.a in Frameworks */,
+				96F7CC211D5CA91300D54DB5 /* YAJL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F7CC491D5CAB8900D54DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F7CC5B1D5CACA200D54DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F7CC631D5CACA200D54DB5 /* YAJL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +289,7 @@
 				00ABD2F40FFA0C3100965787 /* YAJLTestCase.m */,
 				00C405740FE777B4003CE908 /* YAJLDocumentTest.m */,
 				00C405750FE777B4003CE908 /* YAJLParserTest.m */,
-				00C4054F0FE77760003CE908 /* Tests-Info.plist */,
+				96F7CC441D5CAAA300D54DB5 /* Info.plist */,
 			);
 			path = Tests;
 			sourceTree = SOURCE_ROOT;
@@ -264,8 +324,10 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0065977C11BEEF4000E89ABD /* libYAJL.a */,
-				633F876C1BF11F4600A465AA /* Tests.xctest */,
+				96B89BF71D5CA6AA00E12508 /* YAJL.framework */,
+				96F7CC1C1D5CA91300D54DB5 /* YAJLTests.xctest */,
+				96F7CC4D1D5CAB8900D54DB5 /* YAJL.framework */,
+				96F7CC5E1D5CACA200D54DB5 /* YAJLTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -273,88 +335,125 @@
 		0867D691FE84028FC02AAC07 /* YAJLiOS */ = {
 			isa = PBXGroup;
 			children = (
-				00200243107D4033009ED6DF /* CHANGELOG.md */,
 				00C406470FE77C51003CE908 /* README.md */,
 				0052CD4F126EABC10049CF17 /* yajl-2.1.0 */,
 				00C404FD0FE77661003CE908 /* Classes */,
+				96F7CC591D5CAC5900D54DB5 /* Supporting Files */,
 				00C4056C0FE777B4003CE908 /* Tests */,
-				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
 			name = YAJLiOS;
 			sourceTree = "<group>";
 		};
-		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+		96F7CC591D5CAC5900D54DB5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				005886AA1226333300292C90 /* CoreGraphics.framework */,
-				005886B11226334500292C90 /* UIKit.framework */,
-				005886C71226337500292C90 /* Foundation.framework */,
-				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				96F7CC561D5CAC4F00D54DB5 /* YAJL.h */,
+				96F7CC551D5CAC4500D54DB5 /* Info.plist */,
 			);
-			name = Frameworks;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0065975911BEEF4000E89ABD /* Headers */ = {
+		96B89BF41D5CA6AA00E12508 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0065975B11BEEF4000E89ABD /* YAJLDocument.h in Headers */,
-				0065975C11BEEF4000E89ABD /* YAJLParser.h in Headers */,
-				0065975D11BEEF4000E89ABD /* NSObject+YAJL.h in Headers */,
-				0065975F11BEEF4000E89ABD /* YAJLGen.h in Headers */,
-				63D6C93E1BF13587007C028C /* yajl_tree.h in Headers */,
-				0052CD69126EABC10049CF17 /* yajl_alloc.h in Headers */,
-				0052CD6B126EABC10049CF17 /* yajl_buf.h in Headers */,
-				0052CD6C126EABC10049CF17 /* yajl_bytestack.h in Headers */,
-				0052CD6E126EABC10049CF17 /* yajl_encode.h in Headers */,
-				0052CD71126EABC10049CF17 /* yajl_lex.h in Headers */,
-				0052CD73126EABC10049CF17 /* yajl_parser.h in Headers */,
-				00C3CEE8126EABFF00DF710D /* yajl_common.h in Headers */,
-				00C3CEE9126EABFF00DF710D /* yajl_gen.h in Headers */,
-				00C3CEEA126EABFF00DF710D /* yajl_parse.h in Headers */,
+				96F7CC581D5CAC4F00D54DB5 /* YAJL.h in Headers */,
+				96D282191D5CB3CA004E727D /* YAJLGen.h in Headers */,
+				96D282181D5CB3C6004E727D /* YAJLDocument.h in Headers */,
+				96D282171D5CB3C1004E727D /* YAJLParser.h in Headers */,
+				96D2821A1D5CB3CE004E727D /* NSObject+YAJL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F7CC4A1D5CAB8900D54DB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F7CC571D5CAC4F00D54DB5 /* YAJL.h in Headers */,
+				967A021B1D5CB2CD00CFB753 /* NSObject+YAJL.h in Headers */,
+				967A021C1D5CB2D000CFB753 /* YAJLGen.h in Headers */,
+				967A021D1D5CB2D200CFB753 /* YAJLDocument.h in Headers */,
+				967A021E1D5CB2D400CFB753 /* YAJLParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0065975811BEEF4000E89ABD /* YAJL iOS */ = {
+		96B89BF61D5CA6AA00E12508 /* YAJL macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0065977911BEEF4000E89ABD /* Build configuration list for PBXNativeTarget "YAJL iOS" */;
+			buildConfigurationList = 96B89C081D5CA6AA00E12508 /* Build configuration list for PBXNativeTarget "YAJL macOS" */;
 			buildPhases = (
-				0065975911BEEF4000E89ABD /* Headers */,
-				0065976A11BEEF4000E89ABD /* Sources */,
-				0065977711BEEF4000E89ABD /* Frameworks */,
+				96B89BF21D5CA6AA00E12508 /* Sources */,
+				96B89BF31D5CA6AA00E12508 /* Frameworks */,
+				96B89BF41D5CA6AA00E12508 /* Headers */,
+				96B89BF51D5CA6AA00E12508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YAJL macOS";
+			productName = YAJL;
+			productReference = 96B89BF71D5CA6AA00E12508 /* YAJL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96F7CC1B1D5CA91300D54DB5 /* YAJLTests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F7CC241D5CA91300D54DB5 /* Build configuration list for PBXNativeTarget "YAJLTests macOS" */;
+			buildPhases = (
+				96F7CC181D5CA91300D54DB5 /* Sources */,
+				96F7CC191D5CA91300D54DB5 /* Frameworks */,
+				96F7CC1A1D5CA91300D54DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96F7CC231D5CA91300D54DB5 /* PBXTargetDependency */,
+			);
+			name = "YAJLTests macOS";
+			productName = YAJLTests;
+			productReference = 96F7CC1C1D5CA91300D54DB5 /* YAJLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96F7CC4C1D5CAB8900D54DB5 /* YAJL iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F7CC521D5CAB8900D54DB5 /* Build configuration list for PBXNativeTarget "YAJL iOS" */;
+			buildPhases = (
+				96F7CC481D5CAB8900D54DB5 /* Sources */,
+				96F7CC491D5CAB8900D54DB5 /* Frameworks */,
+				96F7CC4A1D5CAB8900D54DB5 /* Headers */,
+				96F7CC4B1D5CAB8900D54DB5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "YAJL iOS";
-			productName = YAJLiOS;
-			productReference = 0065977C11BEEF4000E89ABD /* libYAJL.a */;
-			productType = "com.apple.product-type.library.static";
+			productName = YAJL;
+			productReference = 96F7CC4D1D5CAB8900D54DB5 /* YAJL.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		633F876B1BF11F4600A465AA /* Tests */ = {
+		96F7CC5D1D5CACA200D54DB5 /* YAJLTests iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 633F87741BF11F4600A465AA /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildConfigurationList = 96F7CC661D5CACA200D54DB5 /* Build configuration list for PBXNativeTarget "YAJLTests iOS" */;
 			buildPhases = (
-				633F87681BF11F4600A465AA /* Sources */,
-				633F87691BF11F4600A465AA /* Frameworks */,
-				633F876A1BF11F4600A465AA /* Resources */,
+				96F7CC5A1D5CACA200D54DB5 /* Sources */,
+				96F7CC5B1D5CACA200D54DB5 /* Frameworks */,
+				96F7CC5C1D5CACA200D54DB5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				633F87731BF11F4600A465AA /* PBXTargetDependency */,
+				96F7CC651D5CACA200D54DB5 /* PBXTargetDependency */,
 			);
-			name = Tests;
-			productName = Tests;
-			productReference = 633F876C1BF11F4600A465AA /* Tests.xctest */;
+			name = "YAJLTests iOS";
+			productName = "YAJLTests iOS";
+			productReference = 96F7CC5E1D5CACA200D54DB5 /* YAJLTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -365,8 +464,17 @@
 			attributes = {
 				LastUpgradeCheck = 0720;
 				TargetAttributes = {
-					633F876B1BF11F4600A465AA = {
-						CreatedOnToolsVersion = 7.2;
+					96B89BF61D5CA6AA00E12508 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					96F7CC1B1D5CA91300D54DB5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					96F7CC4C1D5CAB8900D54DB5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					96F7CC5D1D5CACA200D54DB5 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
@@ -385,108 +493,174 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0065975811BEEF4000E89ABD /* YAJL iOS */,
-				633F876B1BF11F4600A465AA /* Tests */,
+				96F7CC4C1D5CAB8900D54DB5 /* YAJL iOS */,
+				96F7CC5D1D5CACA200D54DB5 /* YAJLTests iOS */,
+				96B89BF61D5CA6AA00E12508 /* YAJL macOS */,
+				96F7CC1B1D5CA91300D54DB5 /* YAJLTests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		633F876A1BF11F4600A465AA /* Resources */ = {
+		96B89BF51D5CA6AA00E12508 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D6C9141BF124B8007C028C /* gen_expected_ignore_unknown1.json in Resources */,
-				63D6C91D1BF124B8007C028C /* stream1.json in Resources */,
-				63D6C9181BF124B8007C028C /* stream_array2.json in Resources */,
-				63D6C9111BF124B8007C028C /* overflow2.json in Resources */,
-				63D6C91C1BF124B8007C028C /* overflow.json in Resources */,
-				63D6C9131BF124B8007C028C /* overflow_longlong.json in Resources */,
-				63D6C91E1BF124B8007C028C /* stream2.json in Resources */,
-				63D6C9221BF124B8007C028C /* sample.json in Resources */,
-				63D6C91B1BF124B8007C028C /* object_expected_array.json in Resources */,
-				63D6C9211BF124B8007C028C /* example.json in Resources */,
-				63D6C9231BF124B8007C028C /* twitter_snowflake.json in Resources */,
-				63D6C91A1BF124B8007C028C /* gen_expected2.json in Resources */,
-				63D6C9191BF124B8007C028C /* gen_expected1.json in Resources */,
-				63D6C9201BF124B8007C028C /* error.json in Resources */,
-				63D6C9151BF124B8007C028C /* gen_expected_plist1.json in Resources */,
-				63D6C91F1BF124B8007C028C /* comments.json in Resources */,
-				63D6C9101BF124B8007C028C /* document_streaming.json in Resources */,
-				63D6C9171BF124B8007C028C /* stream_array1.json in Resources */,
-				63D6C9121BF124B8007C028C /* twitter.json in Resources */,
-				63D6C9161BF124B8007C028C /* error2.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F7CC1A1D5CA91300D54DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F7CC341D5CA97B00D54DB5 /* gen_expected_ignore_unknown1.json in Resources */,
+				96F7CC3D1D5CA97B00D54DB5 /* stream1.json in Resources */,
+				96F7CC381D5CA97B00D54DB5 /* stream_array2.json in Resources */,
+				96F7CC311D5CA97B00D54DB5 /* overflow2.json in Resources */,
+				96F7CC3C1D5CA97B00D54DB5 /* overflow.json in Resources */,
+				96F7CC331D5CA97B00D54DB5 /* overflow_longlong.json in Resources */,
+				96F7CC3E1D5CA97B00D54DB5 /* stream2.json in Resources */,
+				96F7CC421D5CA97B00D54DB5 /* sample.json in Resources */,
+				96F7CC3B1D5CA97B00D54DB5 /* object_expected_array.json in Resources */,
+				96F7CC411D5CA97B00D54DB5 /* example.json in Resources */,
+				96F7CC431D5CA97B00D54DB5 /* twitter_snowflake.json in Resources */,
+				96F7CC3A1D5CA97B00D54DB5 /* gen_expected2.json in Resources */,
+				96F7CC391D5CA97B00D54DB5 /* gen_expected1.json in Resources */,
+				96F7CC401D5CA97B00D54DB5 /* error.json in Resources */,
+				96F7CC351D5CA97B00D54DB5 /* gen_expected_plist1.json in Resources */,
+				96F7CC3F1D5CA97B00D54DB5 /* comments.json in Resources */,
+				96F7CC301D5CA97B00D54DB5 /* document_streaming.json in Resources */,
+				96F7CC371D5CA97B00D54DB5 /* stream_array1.json in Resources */,
+				96F7CC321D5CA97B00D54DB5 /* twitter.json in Resources */,
+				96F7CC361D5CA97B00D54DB5 /* error2.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F7CC4B1D5CAB8900D54DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F7CC5C1D5CACA200D54DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F7CC811D5CACCE00D54DB5 /* gen_expected_ignore_unknown1.json in Resources */,
+				96F7CC8A1D5CACCE00D54DB5 /* stream1.json in Resources */,
+				96F7CC851D5CACCE00D54DB5 /* stream_array2.json in Resources */,
+				96F7CC7E1D5CACCE00D54DB5 /* overflow2.json in Resources */,
+				96F7CC891D5CACCE00D54DB5 /* overflow.json in Resources */,
+				96F7CC801D5CACCE00D54DB5 /* overflow_longlong.json in Resources */,
+				96F7CC8B1D5CACCE00D54DB5 /* stream2.json in Resources */,
+				96F7CC8F1D5CACCE00D54DB5 /* sample.json in Resources */,
+				96F7CC881D5CACCE00D54DB5 /* object_expected_array.json in Resources */,
+				96F7CC8E1D5CACCE00D54DB5 /* example.json in Resources */,
+				96F7CC901D5CACCE00D54DB5 /* twitter_snowflake.json in Resources */,
+				96F7CC871D5CACCE00D54DB5 /* gen_expected2.json in Resources */,
+				96F7CC861D5CACCE00D54DB5 /* gen_expected1.json in Resources */,
+				96F7CC8D1D5CACCE00D54DB5 /* error.json in Resources */,
+				96F7CC821D5CACCE00D54DB5 /* gen_expected_plist1.json in Resources */,
+				96F7CC8C1D5CACCE00D54DB5 /* comments.json in Resources */,
+				96F7CC7D1D5CACCE00D54DB5 /* document_streaming.json in Resources */,
+				96F7CC841D5CACCE00D54DB5 /* stream_array1.json in Resources */,
+				96F7CC7F1D5CACCE00D54DB5 /* twitter.json in Resources */,
+				96F7CC831D5CACCE00D54DB5 /* error2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0065976A11BEEF4000E89ABD /* Sources */ = {
+		96B89BF21D5CA6AA00E12508 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0065976B11BEEF4000E89ABD /* YAJLDocument.m in Sources */,
-				0065976C11BEEF4000E89ABD /* YAJLParser.m in Sources */,
-				0065976D11BEEF4000E89ABD /* NSObject+YAJL.m in Sources */,
-				0065976E11BEEF4000E89ABD /* YAJLGen.m in Sources */,
-				0052CD67126EABC10049CF17 /* yajl.c in Sources */,
-				0052CD68126EABC10049CF17 /* yajl_alloc.c in Sources */,
-				0052CD6A126EABC10049CF17 /* yajl_buf.c in Sources */,
-				0052CD6D126EABC10049CF17 /* yajl_encode.c in Sources */,
-				0052CD6F126EABC10049CF17 /* yajl_gen.c in Sources */,
-				0052CD70126EABC10049CF17 /* yajl_lex.c in Sources */,
-				0052CD72126EABC10049CF17 /* yajl_parser.c in Sources */,
-				0052CD74126EABC10049CF17 /* yajl_version.c in Sources */,
-				63D6C9401BF13590007C028C /* yajl_tree.c in Sources */,
+				96F7CC151D5CA78300D54DB5 /* YAJLGen.m in Sources */,
+				96F7CC121D5CA76B00D54DB5 /* yajl_parser.c in Sources */,
+				96F7CC131D5CA76B00D54DB5 /* yajl_tree.c in Sources */,
+				96F7CC0A1D5CA75A00D54DB5 /* YAJLDocument.m in Sources */,
+				96F7CC0D1D5CA76B00D54DB5 /* yajl_alloc.c in Sources */,
+				96F7CC141D5CA76B00D54DB5 /* yajl_version.c in Sources */,
+				96F7CC091D5CA75A00D54DB5 /* NSObject+YAJL.m in Sources */,
+				96F7CC0E1D5CA76B00D54DB5 /* yajl_buf.c in Sources */,
+				96F7CC101D5CA76B00D54DB5 /* yajl_gen.c in Sources */,
+				96F7CC0F1D5CA76B00D54DB5 /* yajl_encode.c in Sources */,
+				96F7CC0B1D5CA75A00D54DB5 /* YAJLParser.m in Sources */,
+				96F7CC111D5CA76B00D54DB5 /* yajl_lex.c in Sources */,
+				96F7CC0C1D5CA76B00D54DB5 /* yajl.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		633F87681BF11F4600A465AA /* Sources */ = {
+		96F7CC181D5CA91300D54DB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				633F87801BF11FD400A465AA /* YAJLParserTest.m in Sources */,
-				633F877B1BF11FD400A465AA /* NSDataTest.m in Sources */,
-				633F87791BF11FD400A465AA /* NSObjectTest.m in Sources */,
-				633F877F1BF11FD400A465AA /* YAJLDocumentTest.m in Sources */,
-				633F877A1BF11FD400A465AA /* NSStringTest.m in Sources */,
-				633F87771BF11FD400A465AA /* YAJLDocumentDelegateTest.m in Sources */,
-				633F877E1BF11FD400A465AA /* YAJLTestCase.m in Sources */,
-				633F877C1BF11FD400A465AA /* YAJLGenTest.m in Sources */,
-				633F87781BF11FD400A465AA /* TwitterTest.m in Sources */,
+				96F7CC2F1D5CA92F00D54DB5 /* YAJLParserTest.m in Sources */,
+				96F7CC2B1D5CA92B00D54DB5 /* NSDataTest.m in Sources */,
+				96F7CC2C1D5CA92B00D54DB5 /* YAJLGenTest.m in Sources */,
+				96F7CC2E1D5CA92F00D54DB5 /* YAJLDocumentTest.m in Sources */,
+				96F7CC291D5CA92B00D54DB5 /* NSObjectTest.m in Sources */,
+				96F7CC2A1D5CA92B00D54DB5 /* NSStringTest.m in Sources */,
+				96F7CC2D1D5CA92F00D54DB5 /* YAJLTestCase.m in Sources */,
+				96F7CC281D5CA92B00D54DB5 /* TwitterTest.m in Sources */,
+				96F7CC271D5CA92600D54DB5 /* YAJLDocumentDelegateTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F7CC481D5CAB8900D54DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F7CC9E1D5CAD1500D54DB5 /* yajl.c in Sources */,
+				96F7CC9D1D5CAD0500D54DB5 /* YAJLParser.m in Sources */,
+				96F7CC9B1D5CAD0500D54DB5 /* YAJLGen.m in Sources */,
+				96F7CCA61D5CAD1500D54DB5 /* yajl_version.c in Sources */,
+				96F7CCA31D5CAD1500D54DB5 /* yajl_lex.c in Sources */,
+				96F7CCA11D5CAD1500D54DB5 /* yajl_encode.c in Sources */,
+				96F7CC9A1D5CAD0500D54DB5 /* NSObject+YAJL.m in Sources */,
+				96F7CC9C1D5CAD0500D54DB5 /* YAJLDocument.m in Sources */,
+				96F7CCA41D5CAD1500D54DB5 /* yajl_parser.c in Sources */,
+				96F7CC9F1D5CAD1500D54DB5 /* yajl_alloc.c in Sources */,
+				96F7CCA21D5CAD1500D54DB5 /* yajl_gen.c in Sources */,
+				96F7CCA01D5CAD1500D54DB5 /* yajl_buf.c in Sources */,
+				96F7CCA51D5CAD1500D54DB5 /* yajl_tree.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F7CC5A1D5CACA200D54DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F7CC991D5CACDC00D54DB5 /* YAJLParserTest.m in Sources */,
+				96F7CC951D5CACDC00D54DB5 /* NSDataTest.m in Sources */,
+				96F7CC961D5CACDC00D54DB5 /* YAJLGenTest.m in Sources */,
+				96F7CC981D5CACDC00D54DB5 /* YAJLDocumentTest.m in Sources */,
+				96F7CC931D5CACDC00D54DB5 /* NSObjectTest.m in Sources */,
+				96F7CC941D5CACDC00D54DB5 /* NSStringTest.m in Sources */,
+				96F7CC971D5CACDC00D54DB5 /* YAJLTestCase.m in Sources */,
+				96F7CC921D5CACDC00D54DB5 /* TwitterTest.m in Sources */,
+				96F7CC911D5CACDC00D54DB5 /* YAJLDocumentDelegateTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		633F87731BF11F4600A465AA /* PBXTargetDependency */ = {
+		96F7CC231D5CA91300D54DB5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0065975811BEEF4000E89ABD /* YAJL iOS */;
-			targetProxy = 633F87721BF11F4600A465AA /* PBXContainerItemProxy */;
+			target = 96B89BF61D5CA6AA00E12508 /* YAJL macOS */;
+			targetProxy = 96F7CC221D5CA91300D54DB5 /* PBXContainerItemProxy */;
+		};
+		96F7CC651D5CACA200D54DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96F7CC4C1D5CAB8900D54DB5 /* YAJL iOS */;
+			targetProxy = 96F7CC641D5CACA200D54DB5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0065977A11BEEF4000E89ABD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				GCC_PREFIX_HEADER = "";
-				PRODUCT_NAME = YAJL;
-			};
-			name = Debug;
-		};
-		0065977B11BEEF4000E89ABD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
-				GCC_PREFIX_HEADER = "";
-				PRODUCT_NAME = YAJL;
-			};
-			name = Release;
-		};
 		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -498,7 +672,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -510,17 +683,307 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
-		633F87751BF11F4600A465AA /* Debug */ = {
+		96B89C091D5CA6AA00E12508 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Classes/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = net.baunz.YAJL;
+				PRODUCT_NAME = YAJL;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96B89C0A1D5CA6AA00E12508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Classes/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = net.baunz.YAJL;
+				PRODUCT_NAME = YAJL;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96F7CC251D5CA91300D54DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = net.baunz.YAJLTests;
+				PRODUCT_NAME = YAJLTests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96F7CC261D5CA91300D54DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = net.baunz.YAJLTests;
+				PRODUCT_NAME = YAJLTests;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96F7CC531D5CAB8900D54DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Classes/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = net.baunz.YAJL;
+				PRODUCT_NAME = YAJL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96F7CC541D5CAB8900D54DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Classes/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = net.baunz.YAJL;
+				PRODUCT_NAME = YAJL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96F7CC671D5CACA200D54DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -547,22 +1010,23 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.atipik.Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.baunz.YAJLTests-iOS";
+				PRODUCT_NAME = YAJLTests;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		633F87761BF11F4600A465AA /* Release */ = {
+		96F7CC681D5CACA200D54DB5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -585,12 +1049,13 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "Tests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = ch.atipik.Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.baunz.YAJLTests-iOS";
+				PRODUCT_NAME = YAJLTests;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -598,15 +1063,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0065977911BEEF4000E89ABD /* Build configuration list for PBXNativeTarget "YAJL iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0065977A11BEEF4000E89ABD /* Debug */,
-				0065977B11BEEF4000E89ABD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "YAJL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -616,11 +1072,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		633F87741BF11F4600A465AA /* Build configuration list for PBXNativeTarget "Tests" */ = {
+		96B89C081D5CA6AA00E12508 /* Build configuration list for PBXNativeTarget "YAJL macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				633F87751BF11F4600A465AA /* Debug */,
-				633F87761BF11F4600A465AA /* Release */,
+				96B89C091D5CA6AA00E12508 /* Debug */,
+				96B89C0A1D5CA6AA00E12508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F7CC241D5CA91300D54DB5 /* Build configuration list for PBXNativeTarget "YAJLTests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F7CC251D5CA91300D54DB5 /* Debug */,
+				96F7CC261D5CA91300D54DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F7CC521D5CAB8900D54DB5 /* Build configuration list for PBXNativeTarget "YAJL iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F7CC531D5CAB8900D54DB5 /* Debug */,
+				96F7CC541D5CAB8900D54DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F7CC661D5CACA200D54DB5 /* Build configuration list for PBXNativeTarget "YAJLTests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F7CC671D5CACA200D54DB5 /* Debug */,
+				96F7CC681D5CACA200D54DB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0065975811BEEF4000E89ABD"
-               BuildableName = "libYAJL.a"
-               BlueprintName = "YAJL iOS"
+               BlueprintIdentifier = "96B89BF61D5CA6AA00E12508"
+               BuildableName = "YAJL.framework"
+               BlueprintName = "YAJL macOS"
                ReferencedContainer = "container:YAJL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "633F876B1BF11F4600A465AA"
-               BuildableName = "Tests.xctest"
-               BlueprintName = "Tests"
+               BlueprintIdentifier = "96F7CC1B1D5CA91300D54DB5"
+               BuildableName = "YAJLTests.xctest"
+               BlueprintName = "YAJLTests macOS"
                ReferencedContainer = "container:YAJL.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0065975811BEEF4000E89ABD"
-            BuildableName = "libYAJL.a"
-            BlueprintName = "YAJL iOS"
+            BlueprintIdentifier = "96B89BF61D5CA6AA00E12508"
+            BuildableName = "YAJL.framework"
+            BlueprintName = "YAJL macOS"
             ReferencedContainer = "container:YAJL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0065975811BEEF4000E89ABD"
-            BuildableName = "libYAJL.a"
-            BlueprintName = "YAJL iOS"
+            BlueprintIdentifier = "96B89BF61D5CA6AA00E12508"
+            BuildableName = "YAJL.framework"
+            BlueprintName = "YAJL macOS"
             ReferencedContainer = "container:YAJL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0065975811BEEF4000E89ABD"
-            BuildableName = "libYAJL.a"
-            BlueprintName = "YAJL iOS"
+            BlueprintIdentifier = "96B89BF61D5CA6AA00E12508"
+            BuildableName = "YAJL.framework"
+            BlueprintName = "YAJL macOS"
             ReferencedContainer = "container:YAJL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

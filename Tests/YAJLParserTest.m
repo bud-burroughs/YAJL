@@ -94,11 +94,7 @@
 
 - (void)testLongLongOverflow {
 	YAJLParser *parser = [[YAJLParser alloc] initWithParserOptions:YAJLParserOptionsStrictPrecision];
-#if TARGET_OS_IPHONE
 	YAJLParserStatus status = [parser parse:[self loadData:@"overflow_longlong"]];
-#else
-	YAJLParserStatus status = [parser parse:[self loadData:@"overflow_longlong_macosx"]];
-#endif
 	XCTAssertEqual(status, (NSUInteger)YAJLParserStatusError, @"Should have error status");
 	
 	NSError *error = parser.parserError;
