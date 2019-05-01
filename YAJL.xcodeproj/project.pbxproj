@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C6E7CD52279D45900EF4BDA /* yajl_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6E7CD42279D45900EF4BDA /* yajl_c.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C6E7CD62279D45900EF4BDA /* yajl_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C6E7CD42279D45900EF4BDA /* yajl_c.h */; };
+		7C6E7CD72279D4D300EF4BDA /* yajl_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D6C9411BF135ED007C028C /* yajl_version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C6E7CD82279D4D300EF4BDA /* yajl_tree.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D6C93D1BF13587007C028C /* yajl_tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C6E7CD92279D4D300EF4BDA /* yajl_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C3CEE4126EABFF00DF710D /* yajl_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C6E7CDA2279D4D300EF4BDA /* yajl_gen.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C3CEE5126EABFF00DF710D /* yajl_gen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C6E7CDB2279D4D300EF4BDA /* yajl_parse.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C3CEE6126EABFF00DF710D /* yajl_parse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		967A021B1D5CB2CD00CFB753 /* NSObject+YAJL.h in Headers */ = {isa = PBXBuildFile; fileRef = 005BF2D110185B3000C35A81 /* NSObject+YAJL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		967A021C1D5CB2D000CFB753 /* YAJLGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 005BF2D610185B3000C35A81 /* YAJLGen.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		967A021D1D5CB2D200CFB753 /* YAJLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C404FE0FE77661003CE908 /* YAJLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -182,6 +189,7 @@
 		63D6C93D1BF13587007C028C /* yajl_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_tree.h; sourceTree = "<group>"; };
 		63D6C93F1BF13590007C028C /* yajl_tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_tree.c; sourceTree = "<group>"; };
 		63D6C9411BF135ED007C028C /* yajl_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_version.h; sourceTree = "<group>"; };
+		7C6E7CD42279D45900EF4BDA /* yajl_c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yajl_c.h; sourceTree = "<group>"; };
 		96B89BF71D5CA6AA00E12508 /* YAJL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YAJL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F7CC1C1D5CA91300D54DB5 /* YAJLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YAJLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F7CC441D5CAAA300D54DB5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -256,6 +264,7 @@
 				00C3CEE4126EABFF00DF710D /* yajl_common.h */,
 				00C3CEE5126EABFF00DF710D /* yajl_gen.h */,
 				00C3CEE6126EABFF00DF710D /* yajl_parse.h */,
+				7C6E7CD42279D45900EF4BDA /* yajl_c.h */,
 			);
 			path = api;
 			sourceTree = "<group>";
@@ -363,6 +372,7 @@
 			files = (
 				96F7CC581D5CAC4F00D54DB5 /* YAJL.h in Headers */,
 				96D282191D5CB3CA004E727D /* YAJLGen.h in Headers */,
+				7C6E7CD62279D45900EF4BDA /* yajl_c.h in Headers */,
 				96D282181D5CB3C6004E727D /* YAJLDocument.h in Headers */,
 				96D282171D5CB3C1004E727D /* YAJLParser.h in Headers */,
 				96D2821A1D5CB3CE004E727D /* NSObject+YAJL.h in Headers */,
@@ -378,6 +388,12 @@
 				967A021C1D5CB2D000CFB753 /* YAJLGen.h in Headers */,
 				967A021D1D5CB2D200CFB753 /* YAJLDocument.h in Headers */,
 				967A021E1D5CB2D400CFB753 /* YAJLParser.h in Headers */,
+				7C6E7CD52279D45900EF4BDA /* yajl_c.h in Headers */,
+				7C6E7CD72279D4D300EF4BDA /* yajl_version.h in Headers */,
+				7C6E7CD82279D4D300EF4BDA /* yajl_tree.h in Headers */,
+				7C6E7CD92279D4D300EF4BDA /* yajl_common.h in Headers */,
+				7C6E7CDA2279D4D300EF4BDA /* yajl_gen.h in Headers */,
+				7C6E7CDB2279D4D300EF4BDA /* yajl_parse.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
